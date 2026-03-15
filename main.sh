@@ -9,16 +9,17 @@ source ./reports.sh
 source ./remote.sh
 source ./email.sh
 
-
 show_logo() {
     clear
+    
     echo -e "${BLUE}"
-    echo " ___  _  _  ___  _    _     ___ _   _ ___"
-    echo "/ __|| || || __|| |  | |   | __| | | | __|"
-    echo "\__ \| __ || _| | |__| |__ | _| \_/ | _|"
-    echo "|___/|_||_||___||____||____||___|\___/|___|"
+    echo "  ██████  ██   ██ ███████ ██      ██      ███████ ██    ██ ███████ "
+    echo " ██       ██   ██ ██      ██      ██      ██       ██  ██  ██      "
+    echo "  █████   ███████ █████   ██      ██      █████     ████   █████   "
+    echo "      ██  ██   ██ ██      ██      ██      ██         ██    ██      "
+    echo "  ██████  ██   ██ ███████ ███████ ███████ ███████    ██    ███████ "
     echo -e "${NC}"
-    echo -e "${YELLOW}  ~~~  Linux Audit & Monitoring  v1.0  ~~~${NC}"
+    echo -e "${YELLOW}       >>--- Linux Audit & Monitoring Tool v1.0 ---<<${NC}"
     echo ""
 }
 
@@ -123,7 +124,7 @@ show_logo
     echo -e "${RED}5) Exit${NC}"
     echo -e "${YELLOW}=====================${NC}"
     
-    local choice
+
     read -p "Choose an option [1-5]: " choice
 
     case $choice in
