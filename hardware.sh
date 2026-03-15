@@ -20,7 +20,7 @@ get_hw_info(){
 
                 #the varage is the last: 1min 5min 15min ( 1.00: All power(in it's limit) 2.00(there is prosses waiting) );;
                 # -F: to choose the separator;
-    local cpu_usage=$(top -bn1 | grep "Cpu(s)" | awk '{print 100-$8}')
+    local cpu_usage=$(top -bn1 | grep "Cpu(s)" | awk '{print 100-$8}' | cut -d. -f1) # To get the value without floating
 
 
 
