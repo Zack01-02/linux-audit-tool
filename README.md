@@ -3,10 +3,6 @@
 ![Shell](https://img.shields.io/badge/Shell-Bash-green)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 ![School](https://img.shields.io/badge/NSCS-2025%2F2026-blue)
-
-
-##LICENSE
-
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 > An automated Linux tool for collecting hardware & software information,
@@ -249,8 +245,6 @@ bash main.sh --auto
 - msmtp config protected with `chmod 600`
 - Gmail App Password used instead of real account password
 - All remote transfers encrypted via SSH/SCP
-
-
 
 ---
 
