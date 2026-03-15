@@ -4,6 +4,11 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 ![School](https://img.shields.io/badge/NSCS-2025%2F2026-blue)
 
+
+##LICENSE
+
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
 > An automated Linux tool for collecting hardware & software information,
 > system monitoring, report generation, and remote monitoring automation.
 
